@@ -31,7 +31,7 @@ const Contents = () => {
     {
       image: "/images/foto6.jpeg",
       textGradient: "Dunia tidak dirubah oleh orang pintar yang takut, dunia di",
-      textDescription: " ruba holeh orang bodoh yang rela melakukan apapun.",
+      textDescription: " rubah oleh orang bodoh yang rela melakukan apapun.",
     },
     {
       image: "/images/foto12.jpg",
