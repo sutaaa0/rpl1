@@ -1,5 +1,3 @@
-// app/api/auth/[...nextauth]/route.js
-
 import NextAuth from 'next-auth';
 import GoogleProvider from 'next-auth/providers/google';
 import { PrismaAdapter } from '@next-auth/prisma-adapter';
