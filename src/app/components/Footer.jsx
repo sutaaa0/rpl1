@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="flex flex-col w-full justify-center items-center">
         <div className="flex justify-center items-center gap-x-2 ">
           <p className="font-extrabold text-lg md:text-xl gradient">Spelgesa </p>
-          <p className="text-xs sm:text-base">Copyright © 2024 - All rights reserved</p>
+          <p className="text-xs sm:text-base">Copyright © 2024 - Dodi suta faturohman</p>
         </div>
         <div className="flex w-full justify-center items-center gap-x-2">
           <p className="text-xs sm:text-sm">Jl. Tanjung Manunggal V, Sukatali, Situraja.</p>
@@ -34,6 +34,14 @@ const Footer = () => {
           </Link>
           <Link href="https://github.com/dodisuta/rpl1">
             <Github className="cursor-pointer" />
+          </Link>
+        </div>
+        <div className="flex justify-center items-center gap-3">
+          <Link href="/privacy" className="text-xs sm:text-sm hover:text-blue-500">
+            Privacy Policy
+          </Link>
+          <Link href="/terms" className="text-xs sm:text-sm hover:text-blue-500">
+            Terms and Conditions
           </Link>
         </div>
       </div>
