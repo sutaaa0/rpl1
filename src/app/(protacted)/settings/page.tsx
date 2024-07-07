@@ -18,7 +18,7 @@ const Settings = async () => {
     <div className="flex w-full h-full mt-[80px] px-[100px]">
       <div className="flex justify-center items-center w-[400px] h-full flex-col gap-y-6">
         <div className="border border-slate-700 rounded-full">
-          <Image src={user?.image} alt="Profile" width={300} height={300} loading="lazy" className="rounded-full" />
+        <Image src={user?.image ?? ''} alt="Profile" width={300} height={300} loading="lazy" className="rounded-full" />
         </div>
         <div>
           <h1 className="text-2xl font-bold">{user?.name}</h1>
