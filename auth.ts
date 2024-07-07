@@ -6,6 +6,8 @@ import { getUserById } from "@/app/data/user";
 import { UserRole } from "@prisma/client";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
+  trustHost: true,
+  
   pages: {
     signIn: "/auth/login",
     signOut: "/auth/error",

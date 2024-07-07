@@ -12,7 +12,6 @@ const Settings = async () => {
   }
 
   const user = await getUserById(session.user.id);
-  console.log("user :", user);
 
   return (
     <div className="flex w-full h-full mt-[80px] px-[100px]">
